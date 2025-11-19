@@ -80,7 +80,7 @@ setState(() => error = "Invalid login.");
 } else {
 Navigator.push(
 context,
-MaterialPageRoute(builder: (*) => HomePage(usernameCtrl.text)),
+MaterialPageRoute(builder: (context) => HomePage(usernameCtrl.text)),
 );
 }
 },
@@ -96,7 +96,7 @@ TextButton(
 onPressed: () {
 Navigator.push(
 context,
-MaterialPageRoute(builder: (*) => SignupPage()),
+MaterialPageRoute(builder: (context) => SignupPage()),
 );
 },
 child: const Text(
