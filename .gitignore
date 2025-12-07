@@ -30,6 +30,7 @@ Thumbs.db
 /coverage/
 /**/doc/api/
 **/ios/Flutter/.last_build_id
+pubspec.lock
 
 # Android artifacts
 /android/app/debug
